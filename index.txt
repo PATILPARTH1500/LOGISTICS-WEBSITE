@@ -1,0 +1,219 @@
+SYS Shipping & Logistics Pvt Ltd
+
+
+
+#---------- HEADER ----------#
+
+SYS Shipping & Logistics
+
+aria-label = Clsoe menu
+<ion-icon name="close-outline"></ion-icon>
+
+Home
+<ion-icon name="chevron-forward"></ion-icon>
+
+About
+Service
+MD's Speech
+Contact
+
+Free Call In INDIA
+022 27572565 
+
+<ion-icon name="call-outline"></ion-icon>
+
+aria-label = Open menu
+<ion-icon name="menu-outline"></ion-icon>
+
+
+
+#---------- HERO ----------#
+
+Your Prefered
+Logistics Partner
+
+"Streamlining your shipments with precision and speed, from warehouse to doorstep."
+
+View Services
+
+
+
+#---------- ABOUT ----------#
+
+Why Choose Us
+
+We Are Professional Shipping & Logistics
+
+
+Incepted in the year 2012, SYS Shipping & Logistics Pvt Ltd based in Mumbai, India
+
+<ion-icon name="chevron-forward"></ion-icon>
+
+The primary motto of an organization is to provide reliable, cost effective & time efficient Logistics solution that meet customer need.
+
+Our expert team understand your need & problems to provide best suitable solution accordingly…
+
+We deliver to locations all around the globe.
+
+Stay updated with real-time tracking and logistics systems.
+
+We use green practices to help protect the environment.
+
+Utilizing advanced tracking and logistics systems for transparency and real-time updates.
+
+Learn More
+
+
+
+#---------- SERVICE ----------#
+
+Happy to see that you have landed on SYS Service page!!!. When it comes to Logistics, we are proud to say that Logistics = SYS & SYS = Logistics!!!!
+
+All Services
+
+Trusted For Our Services
+
+
+width = 80
+height = 60
+
+alt = Truck
+
+01
+ Road Transport
+ 
+ Safe and Efficient Road Transport: We offer reliable road transport services to ensure your goods are delivered safely and on schedule.
+
+
+<ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+View Detail
+
+width = 74
+height = 60
+
+alt = Ship
+02
+Ocean Freight
+
+Dependable Sea Freight Services: We offer secure and cost-effective sea freight solutions for shipping goods across the globe.
+
+width = 60
+height = 60
+
+alt = Airplane
+03
+Air Freight
+
+Fast and Secure Air Freight: We provide quick and reliable air freight services to ensure your goods reach their destination on time.
+
+width = 50
+height = 60
+
+
+#---------- FEATURE ----------#
+
+FEATURES
+
+Has a wide range of features
+
+We ensure your shipments arrive safely and on schedule, every time. Advanced Tracking System: Stay informed with real-time updates on your cargo's location and status.
+
+Read More
+
+Custom Clearance
+
+SYS help you in classifying commodity Harmonized code wise (HS Code) & guide clients on documentation requirement to ensure hassle free clearance of shipment.
+
+
+aria-label = Read more
+<ion-icon name="arrow-forward"></ion-icon>
+
+Special Equipments
+
+SYS expertise in handling special equipment. So Far company handled countless ODC shipments.
+
+SYS Eye Watch
+ 
+Now with SYS Eye Watch system, check real time status of your valuable cargo on your fingertips.
+
+
+
+#---------- PROJECT ----------#
+
+Projects
+
+Featured Projects
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text ever since the when an printer took.
+
+alt = Warehouse inventory
+
+aria-label = View image
+<ion-icon name="expand-outline"></ion-icon>
+
+Warehousing , Distrbution
+
+Warehouse inventory
+
+Read More
+
+Logistics, Analytics
+
+Minimize Manufacturing
+
+
+
+#---------- MD's Speech ----------#
+
+MANAGING DIRECTOR SPEECH
+
+Mr. Yogesh Shelar
+
+Founder & CEO of “SYS Shipping & Logistics Pvt Ltd
+
+<ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+Read More
+
+#---------- FOOTER ----------#
+
+SYS Shipping & Logistics
+
+G207, Tower 2, 2nd floor, BRSCCL, CBD Railway station complex, Sector 11, CBD Belapur, Navi Mumbai _ 400614 Phone: 022 27572565 | Email: cs@sysshipping.com
+
+<ion-icon name="logo-facebook"></ion-icon>
+<ion-icon name="logo-twitter"></ion-icon>
+<ion-icon name="logo-instagram"></ion-icon>
+<ion-icon name="logo-youtube"></ion-icon>
+
+Quick Links
+
+About
+Services
+MD's Speech
+FAQ
+Contact Us
+
+Services
+
+Warehouse
+Air Freight
+Ocean Freight
+Road Freight
+Packaging
+
+Community
+
+Business Consulting
+Testimonials
+Track Your Shipment
+Privacy Policy
+Terms & Condition
+
+&copy; 2022 SYS Shipping & Logistics. All Rights Reserved.
+
+
+#---------- BACK TO TOP ----------#
+
+aria-label = Back to top
+
+<ion-icon name="chevron-up"></ion-icon>
