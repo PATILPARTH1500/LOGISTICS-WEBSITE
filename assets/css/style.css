@@ -382,6 +382,7 @@ body {
 .navbar-link:is(:hover, :focus) {
   background-color: var(--cultured-1);
   color: var(--dark-orange);
+  font-size:14.5px;
 }
 
 .overlay {
