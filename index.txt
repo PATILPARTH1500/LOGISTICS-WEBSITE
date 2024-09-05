@@ -146,21 +146,20 @@ Featured Projects
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text ever since the when an printer took.
 
-alt = Warehouse inventory
+alt = Lorem Ipsum
 
 aria-label = View image
 <ion-icon name="expand-outline"></ion-icon>
 
-Warehousing , Distrbution
+Lorem Ipsum
 
-Warehouse inventory
+Lorem Ipsum
 
 Read More
 
-Logistics, Analytics
+Lorem Ipsum
 
-Minimize Manufacturing
-
+Lorem Ipsum
 
 
 #---------- MD's Speech ----------#
@@ -195,11 +194,12 @@ Contact Us
 
 Services
 
-Warehouse
 Air Freight
 Ocean Freight
-Road Freight
-Packaging
+Road Transport
+SYS Eye Watch
+Special Equipments
+Custom CLearance
 
 Community
 
