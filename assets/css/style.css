@@ -424,10 +424,12 @@ body {
   color: var(--dark-orange);
   font-size: var(--fs-2);
   font-weight: var(--fw-700);
+  text-shadow: 1px 1px 2px black;
 }
 
 .hero-text {
   margin-block: 20px 15px;
+  text-shadow: #FC0 1px 0 10px;
 }
 
 .btn-outline {
