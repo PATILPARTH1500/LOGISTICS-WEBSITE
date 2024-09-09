@@ -492,6 +492,8 @@ body {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+  transition: opacity 1s ease; /* Use only opacity for a smoother fade transition */
+  opacity: 1; /* Video starts visible */
 }
 
 /* Image Slider */
@@ -507,19 +509,13 @@ body {
   z-index: 1;
   background: rgba(0, 0, 0, 0.5); /* Optional: add overlay if needed */
   overflow: hidden;
-}
-
-/* Hide slider initially */
-.image-slider.hidden {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 1s ease, visibility 1s ease;
+  opacity: 0; /* Ensure slider is hidden initially */
+  transition: opacity 1s ease; /* Smooth transition for showing/hiding */
 }
 
 /* Show slider */
 .image-slider.show {
   opacity: 1;
-  visibility: visible;
 }
 
 /* Slider Images */
@@ -528,11 +524,13 @@ body {
   width: 100%;
   height: auto;
   transition: opacity 1s ease-in-out;
+  opacity: 0; /* Ensure all images are initially hidden */
 }
 
 /* Show active slide */
 .slide.active {
   opacity: 1;
+  z-index: 2; /* Bring active slide to the front */
 }
 
 /* Hide inactive slides */
@@ -542,14 +540,25 @@ body {
 
 /* Ensure text is above other elements */
 .hero-content {
-  position: relative; /* Ensure it stays above the background video and slider */
+  position: relative;
   z-index: 2;
   text-align: center;
   padding: 20px;
+  visibility: hidden; /* Initially hidden */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 1s ease; /* Smooth transition */
+}
+
+/* Show hero content */
+.hero-content.show {
+  visibility: visible; /* Set visibility to visible */
+  opacity: 1; /* Fade in effect */
 }
 
 /* Optional: Styling for hero text */
-.hero-title, .hero-text, .btn-outline {
+.hero-title,
+.hero-text,
+.btn-outline {
   color: #fff; /* Adjust color as needed for contrast */
 }
 
@@ -925,7 +934,7 @@ body {
   #BACK TO TOP
 \*-----------------------------------*/
 
-.back-top-btn {
+/* .back-top-btn {
   position: fixed;
   bottom: 10px;
   right: 20px;
@@ -943,7 +952,7 @@ body {
   opacity: 1;
   visibility: visible;
   transform: translateY(-10px);
-}
+} */
 
 
 

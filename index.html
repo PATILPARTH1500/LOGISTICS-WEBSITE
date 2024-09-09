@@ -117,17 +117,21 @@
         <article>
           <section class="section hero" aria-label="home" id="home">
             <div class="container">
+              <!-- Background Video -->
               <video id="backgroundVideo" autoplay muted playsinline class="background-video">
                 <source src="./assets/images/hero.mp4" type="video/mp4">
-                your browser does not support video tag
+                <!-- Fallback content for unsupported browsers -->
+                <p>Your browser does not support the video tag.</p>
               </video>
       
+              <!-- Image Slider -->
               <div id="imageSlider" class="image-slider hidden">
                 <img src="./assets/images/hero-banner.jpg" alt="Image 1" class="slide">
                 <img src="./assets/images/hero-banner1.jpg" alt="Image 2" class="slide">
                 <img src="./assets/images/hero-banner2.jpg" alt="Image 3" class="slide">
               </div>
       
+              <!-- Hero Content -->
               <div class="hero-content">
                 <h2 class="h1 hero-title">
                   <span class="span">Your Preferred</span> 
@@ -142,7 +146,6 @@
         </article>
       </main>
       
-
 
 
 
@@ -822,10 +825,13 @@
     - #BACK TO TOP
   -->
 
-  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+  <!-- <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
     <ion-icon name="chevron-up"></ion-icon>
-  </a>
+  </a> -->
 
+  <!-- bot link -->
+  <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
+  <script src="https://mediafiles.botpress.cloud/dc3b2dce-7e38-4681-877f-d5e51cb4e424/webchat/v2.1/config.js"></script>
 
     <!-- custom js link -->
     <script src="./assets/js/script.js" defer></script>
