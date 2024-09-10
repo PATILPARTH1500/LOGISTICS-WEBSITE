@@ -926,8 +926,27 @@ body {
 
 .copyright-link { display: inline-block; }
 
+.chatbot-button {
+  display: inline-block;
+  width: 73px; /* Adjust width as needed */
+  height: 73px;
+  background-color: #f7941d; /* Orange color */
+  border: none;
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  line-height: 73px; /* Center icon vertically */
+  font-size: 43px; /* Adjust font size as needed */
+  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+  position:relative;
+  left:1250px;
+  bottom:750px;
+}
 
-
+.chatbot-button:hover {
+  background-color: #e0811c; /* Darker orange hover color */
+}
 
 
 /*-----------------------------------*\
@@ -1107,7 +1126,7 @@ body {
    * HERO
    */
 
-  .hero-title .span { --fs-2: 7rem; }
+  .hero-title .span { --fs-2: 6rem; }
 
   .hero-text {
     font-size: var(--fs-7);
@@ -1126,7 +1145,7 @@ body {
    * FEATURES
    */
 
-  .feature-card::before { --fs-1: 10rem; }
+  .feature-card::before { --fs-1: 8rem; }
 
 
 
@@ -1175,6 +1194,19 @@ body {
 
   .footer-top { grid-template-columns: 1fr 1fr; }
 
+}
+
+@media only screen and (max-width: 768px) {
+  .chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    left: auto; /* Remove left positioning */
+    bottom: auto; /* Remove bottom positioning */
+  }
 }
 
 
@@ -1262,7 +1294,7 @@ body {
 
   .hero-content { padding: 0; }
 
-  .hero-title .span { --fs-2: 12rem; }
+  .hero-title .span { --fs-2: 8rem; }
 
 
   
@@ -1394,7 +1426,7 @@ body {
     background-position: left;
   }
 
-  .hero-title .span { --fs-2: 14rem; }
+  .hero-title .span { --fs-2: 10rem; }
 
   .hero-text { --fs-7: 2.4rem; }
 
