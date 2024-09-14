@@ -717,8 +717,8 @@ body {
 }
 
 
-/* projects */
-
+/* projects section styles if needed*/
+/* 
 .project { background-color: var(--alice-blue); }
 
 .project :is(.section-subtitle, .section-title, .section-text) { text-align: center; }
@@ -791,7 +791,7 @@ body {
   background-color: var(--prussian-blue);
 }
 
-.project-list::-webkit-scrollbar-button { width: calc(25% - 40px); }
+.project-list::-webkit-scrollbar-button { width: calc(25% - 40px); } */
 
 
 /* blog */
