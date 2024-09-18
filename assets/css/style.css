@@ -668,7 +668,7 @@ body {
 
 .feature-card {
   position: relative;
-  padding: 30px;
+  padding: 90px;
   text-align: center;
   border: 1px solid var(--alice-blue);
   transition: var(--transition);
