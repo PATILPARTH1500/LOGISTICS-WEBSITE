@@ -1094,7 +1094,8 @@ body {
 
   .hero-title .span { --fs-2: 6rem; }
 
-  .hero-text { max-width: 30ch; }
+  .hero-text { max-width: 30ch;
+  font-family: roboto; }
 
   .btn-outline { margin-inline: 0; }
 
