@@ -210,6 +210,8 @@ body {
 
 .section-text {
   line-height: 1.4;
+  font-family: var(--ff-oswald);
+  font-size: var(--fs-6);
 }
 
 .btn {
@@ -430,7 +432,9 @@ body {
 
 .hero-text {
   margin-block: 20px 15px;
-  text-shadow: #FC0 1px 0 10px;
+  text-shadow: rgb(255, 174, 0) 1px 0 10px;
+  font-family: var(--ff-oswald);
+  font-size: var(--fs-6);
 }
 
 .btn-outline {
@@ -600,7 +604,8 @@ body {
 }
 
 .about-text {
-  font-size: var(--fs-8);
+  font-family: var(--ff-oswald);
+  font-size: var(--fs-7);
 }
 
 .about-icon {
@@ -654,6 +659,8 @@ body {
 
 .service-card .card-text {
   margin-block: 10px 20px;
+  font-family: var(--ff-oswald);
+  font-size: var(--fs-6);
 }
 
 /* features */
@@ -705,6 +712,8 @@ body {
 
 .feature-card .card-text {
   margin-block: 20px 40px;
+  font-family: var(--ff-oswald);
+  font-size: var(--fs-6);
 }
 
 .feature-card .card-btn {
