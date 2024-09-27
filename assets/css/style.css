@@ -962,7 +962,7 @@ body {
   #BACK TO TOP
 \*-----------------------------------*/
 
-/* .back-top-btn {
+.back-top-btn {
   position: fixed;
   bottom: 10px;
   right: 20px;
@@ -980,7 +980,7 @@ body {
   opacity: 1;
   visibility: visible;
   transform: translateY(-10px);
-} */
+}
 
 
 

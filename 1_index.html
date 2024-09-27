@@ -120,7 +120,7 @@
 
                 
            <!-- Background Video -->
-            <video id="backgroundVideo"autoplay playsinline muted preload="auto" class="background-video">
+            <video id="backgroundVideo"autoplay playsinline muted preload ="auto" class="background-video">
             <source src="./assets/images/hero.mp4" type="video/mp4">
               <!-- Fallback content for unsupported browsers -->
                <p>Your browser does not support the video tag.</p>
@@ -897,6 +897,7 @@
           </li>
           
           <li>
+
               <!-- google translate -->
   <div id="google_translate_element"></div>
 
@@ -904,6 +905,8 @@
   function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
   }
+
+  
   </script>
   
   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
@@ -924,6 +927,14 @@
 
     </div>
   </footer>
+
+   <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
 
     <!-- custom js link -->
     <script src="./assets/js/script.js" defer></script>
