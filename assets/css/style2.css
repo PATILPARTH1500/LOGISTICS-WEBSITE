@@ -26,6 +26,12 @@
  --ff-oswald: "Oswald", sans-serif;
  --ff-rubik: "Rubik", sans-serif;
 
+ .caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
  --fs-1: 6rem;
  --fs-2: 5rem;
  --fs-3: 4rem;
@@ -315,9 +321,14 @@ body {
   }
   
   .logo {
-    font-family: var(--ff-oswald);
-    color: var(--white);
+    color: var(--black);
     font-size: 3rem;
+    display: inline; /* Ensures the whole link behaves as inline text */
+  }
+  
+  .logo .sys {
+    color: red;
+    display: inline; /* Ensures the span stays in line with the rest */
   }
   
   .nav-open-btn {
