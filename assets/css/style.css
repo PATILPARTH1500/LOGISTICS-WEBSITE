@@ -962,9 +962,10 @@ body {
   line-height: 73px; /* Center icon vertically */
   font-size: 43px; /* Adjust font size as needed */
   transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
-  position:relative;
-  left:1156px;
-  bottom:750px;
+  position:fixed;
+  bottom: 20px;
+  right: 50px;
+  left:50px;
 }
 
 .chatbot-button:hover {
@@ -1132,110 +1133,169 @@ body {
  * responsive for larger than 768px screen
  */
 
-@media (min-width: 768px) {
+/* Media query for mobile devices (screen width less than or equal to 768px) */
+@media only screen and (max-width: 768px) {
 
-  /**
-   * REUSED STYLE
-   */
+  /* Header */
+  .header-contact {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px; /* Add spacing below contact information */
+  }
 
-  .container { max-width: 720px; }
+  .header .contact-label {
+      display: none; /* Hide contact label on mobile */
+  }
 
-  .h1 { --fs-3: 6rem; }
+  .header .contact-number {
+      font-size: 18px; /* Adjust font size for better readability */
+  }
 
-  .grid-list { grid-template-columns: 1fr 1fr; }
+  .header .contact-icon {
+      font-size: 25px;
+  }
 
+  .nav-open-btn {
+      display: block;
+  }
 
+  .nav-close-btn {
+      display: block;
+  }
 
-  /**
-   * HERO
-   */
+  .navbar {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: var(--white);
+      box-shadow: var(--shadow-1);
+      z-index: 3;
+      visibility: hidden;
+      transform: translateX(100%);
+      transition: 0.25s ease-in-out;
+  }
 
-  .hero-title .span { --fs-2: 6rem; }
+  .navbar.active {
+      visibility: visible;
+      transform: translateX(0);
+  }
+
+  .navbar-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+  }
+
+  .navbar-list {
+      padding: 20px;
+  }
+
+  .navbar-item:not(:last-child) {
+      border-bottom: 1px solid var(--plutinum);
+  }
+
+  .navbar-link {
+      padding: 15px;
+      font-size: 16px;
+  }
+
+  /* Home */
+  .hero {
+      padding-top: 100px;
+  }
+
+  .hero-content {
+      padding: 20px;
+  }
+
+  .hero-title {
+      font-size: 3rem;
+  }
 
   .hero-text {
-    font-size: var(--fs-7);
-    max-width: 40ch;
-    margin-block-end: 40px;
+      font-size: 18px;
   }
 
   .btn-outline {
-    font-size: var(--fs-7);
-    padding: 12px 30px;
+      font-size: 16px;
+      padding: 10px 20px;
   }
 
-
-
-  /**
-   * FEATURES
-   */
-
-  .feature-card::before { --fs-1: 8rem; }
-
-
-
-  /**
-   * PROJECT
-   */
-
-  .project-list { gap: 80px; }
-
-  .project-item { min-width: calc(50% - 40px); }
-
-
-
-  /**
-   * NEWSLETTER
-   */
-
-  .newsletter { margin-block-start: 110px; }
-
-  .newsletter .container { position: relative; }
-
-  .newsletter .newsletter-banner {
-    position: absolute;
-    bottom: -50px;
-    left: 0;
-    margin-block-end: 0;
+  /* About */
+  .about-banner {
+      margin-bottom: 20px;
   }
 
-  .newsletter-content {
-    max-width: 355px;
-    margin-inline-start: auto;
+  .about .abs-img-1,
+  .about .abs-img-2 {
+      display: none;
   }
 
-  .newsletter .section-title { --fs-4: 4rem; }
-
-  .newsletter-btn {
-    font-size: var(--fs-5);
-    padding: 10px 30px;
+  .about-list {
+      margin-bottom: 20px;
   }
 
+  .about-icon {
+      margin-top: 5px;
+  }
 
+  /* Services */
+  .service-card {
+      padding: 20px;
+  }
 
-  /**
-   * FOOTER
-   */
+  .service-card .card-title {
+      font-size: 24px;
+  }
 
-  .footer-top { grid-template-columns: 1fr 1fr; }
+  .service-card .card-text {
+      font-size: 16px;
+  }
 
+  /* Features */
+  .feature-card {
+      padding: 60px;
+  }
+
+  .feature-card::before {
+      font-size: 6rem;
+  }
+
+  .feature-card .card-text {
+      font-size: 16px;
+  }
+
+  /* Blog */
+  .blog-card {
+      max-width: 100%;
+  }
+
+  .blog-card .card-banner {
+      width: 100%;
+  }
+
+  /* Footer */
+  .footer-top {
+      grid-template-columns: 1fr;
+  }
+
+  .footer-list-title {
+      font-size: 18px;
+  }
+
+  .footer-link {
+      font-size: 14px;
+  }
+
+  .footer-bottom {
+      padding: 20px;
+  }
 }
-
-@media only screen and (max-width: 768px) {
-  .chatbot-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
-    left: auto; /* Remove left positioning */
-    bottom: auto; /* Remove bottom positioning */
-  }
-}
-
-
-
-
 
 /**
  * responsive for larger than 992px screen

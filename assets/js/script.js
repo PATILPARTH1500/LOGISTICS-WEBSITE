@@ -96,3 +96,20 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 3000); // Change slide every 3 seconds
   }
 });
+
+
+
+window.addEventListener('scroll', function() {
+  var heroSection = document.getElementById('hero-section');
+  var chatbotButton = document.getElementById('chatbot-button');
+
+  if (window.scrollY > heroSection.offsetTop + heroSection.offsetHeight) {
+      chatbotButton.style.position = 'fixed';
+      chatbotButton.style.bottom = '20px';
+      chatbotButton.style.right = '20px';
+  } else {
+      chatbotButton.style.position = 'static';
+      chatbotButton.style.bottom = 'initial';
+      chatbotButton.style.right = 'initial';
+  }
+});
