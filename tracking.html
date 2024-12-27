@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your trusted partner in shipping and logistics services. Offering reliable transportation solutions, freight forwarding, supply chain management, and more.">
+  <meta name="keywords" content="shipping, logistics, freight forwarding, transportation, supply chain management, cargo services, international shipping, warehousing, logistics solutions, delivery services">
+  <meta name="author" content="SYS Shipping & Logistics Pvt Ltd">
+  
+    <title>SYS Shipping & Logistics Pvt Ltd</title>
+
+     <!-- favicon -->
+     <link rel="shortcut icon" href="./favicon.ico" type="image/svg+xml">
+
+     <!-- external css -->
+     <link rel="stylesheet" href="./assets/css/style2.css">
+ 
+     <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap"rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+ 
+     <!-- preload images -->
+</head>
+<body>
+    <!-- header -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+          <h1>
+            <a href="index.html" class="logo caprasimo-regular">
+              <span class="sys">SYS</span> Shipping & Logistics Pvt Ltd
+            </a>
+          </h1>
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">SYS Shipping & Logistics</a>
+
+                    <button class="nav-close-btn" aria-label="Clsoe menu" data-nav-toggler>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>
+                            <span>Home</span>
+
+                            <ion-icon name="chevron-forward"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>
+                            <span>About</span>
+
+                            <ion-icon name="chevron-forward"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>
+                            <span>Service</span>
+
+                            <ion-icon name="chevron-forward"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>
+                            <span>MD's Speech</span>
+
+                            <ion-icon name="chevron-forward"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="login.html" class="navbar-link" data-nav-link>
+                            <span>Sign Up/Login In</span>
+
+                            <ion-icon name="chevron-forward"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="contact.html" class="navbar-link" data-nav-link>
+                            <span>Contact Us</span>
+
+                            <ion-icon name="chevron-forward"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="header-contact">
+
+                <div>
+                    <p class="contact-label">Free Call In INDIA</p>
+
+                    <a href="tel:02227572565" class="contact-number">022 245005169</a>
+                </div>
+
+                <div class="contact-icon">
+                    <ion-icon name="call-outline"></ion-icon>
+                </div>
+
+            </div>
+
+            <button class="nav-open-btn" aria-label="Open menu" data-nav-toggler>
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+    <!-- hero -->
+    <section class="section hero" aria-label="home" id="home"
+    style="background-image: url('./assets/images/ts.jpg')">
+    <div class="container">
+
+        <div class="hero-content">
+
+            <h2 class="h1 hero-title">
+                <span class="span"  style="text-shadow: 1px 1px 2px black;">TRACK YOUR</span> <span class="span"  style="text-shadow: 1px 1px 2px black;">SHIPMENT</span>
+            </h2>
+
+            <p class="hero-text1">
+        <div class="containertrack">
+            <select id="dropdown" class="dropdown" onchange="updatePlaceholder()">
+                <option value="option1">Ocean Cargo</option>
+                <option value="option2">Air Cargo</option>
+                <option value="option3">LCL Cargo</option>
+                <option value="option4">Parcel</option>
+            </select>
+            <input type="text"class="searchbox12" id="searchBox" placeholder="Type here..." />
+            <button id="trackButton" class="trackButton" onclick="track()">Track</button>
+
+        </div>
+    </p>
+
+
+            <img src="./assets/images/hero-shape.png" width="116" height="116" loading="lazy"
+                class="hero-shape shape-1">
+
+            <img src="./assets/images/hero-shape.png" width="116" height="116" loading="lazy"
+                class="hero-shape shape-2">
+
+        </div>
+
+    </div>
+</section>
+
+
+     <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo caprasimo-regular">
+            <span style="color: red;">SYS</span> <span style="color:black">Shipping & Logistics Pvt Ltd</span>
+        </a>
+
+          <p class="footer-text">
+            G207, Tower 2, 2nd Floor,<br>
+            BRSCCL, CBD Railway Station Complex,<br>
+            Sector 11, CBD Belapur,<br>
+            Navi Mumbai - 400614.<br>
+            Phone: 022 2757 2565<br>
+            Email: cs@sysshipping.com
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Quick Links</p>
+          </li>
+
+          <li>
+            <a href="index.html" class="footer-link">About</a>
+          </li>
+
+          <li>
+            <a href="index.html" class="footer-link">Services</a>
+          </li>
+
+          <li>
+            <a href="index.html" class="footer-link">MD's Speech</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          
+          <li>
+            <a href="airfreight.html" class="footer-link">Air Freight</a>
+          </li>
+            
+          <li>
+            <a href="seafreight.html" class="footer-link">Ocean Freight</a>
+          </li>
+            
+          <li>
+            <a href="roadtransport.html" class="footer-link">Road Transportation</a>
+          </li>
+            
+          <li>
+            <a href="syseyewatch.html" class="footer-link">SYS Eye Watch</a>
+          </li>
+
+          <li>
+            <a href="specialequipment.html" class="footer-link">Special Equipments</a>
+          </li>
+
+          <li>
+            <a href="customclearance.html" class="footer-link">Custom Clearance</a>
+          </li>
+
+          <li></li>
+            <a href="ware.html" class="footer-link">Warehouse</a>
+          </li>
+
+          <li>
+            <a href="dtd.html" class="footer-link">Door to Door Service</a>
+          </li>
+
+          <li>
+            <a href="allieds.html" class="footer-link">Allied Services</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Community</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Business Consulting</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Testimonials</a>
+          </li>
+
+          <li>
+            <a href="tracking.html" class="footer-link">Track Your Shipment</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Condition</a>
+          </li>
+
+          <li>
+            <!-- google translate -->
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2024 SYS Shipping & Logistics Pvt Ltd. All Rights Reserved <a href="#" class="copyright-link"></a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+    <!-- custom js link -->
+ <script src="./assets/js/script2.js" defer></script>
+
+ <!-- ionicon link -->
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
