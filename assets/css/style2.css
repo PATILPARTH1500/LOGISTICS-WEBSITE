@@ -505,6 +505,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
   border:none;
+  border-radius: 25px;
 }
 
 .dropdown:hover{
@@ -522,7 +523,7 @@ body {
   color: black; /* Text color */
   background-color: #f8f8f8; /* Light gray background */
   border: 1px solid none; /* Border color */
-  border-radius: 5px; /* Rounded corners */
+  border-radius: 25px; /* Rounded corners */
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   outline: none; /* Remove focus outline */
 }
@@ -547,6 +548,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
   border:none;
+  border-radius: 25px;;
 }
 
 .trackButton:hover{
