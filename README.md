@@ -10,6 +10,11 @@ This repository hosts the codebase for my Logistics website. Designed with a mod
 
 📝 **Request a Quote**: A user-friendly form that allows customers to request quotes for various logistics services, making it easier to get estimates.
 
+<<<<<<< HEAD
+=======
+📅 **News and Updates**: A section dedicated to the latest news, updates, and industry trends to keep users informed about logistics developments.
+
+>>>>>>> f5f937980fbde7b84911c38fabc1ebd1c7e62c2d
 ✨ **Responsive Design**: The website is fully responsive, ensuring a seamless experience on both desktop and mobile devices.
 
 ## Technologies Used
