@@ -722,7 +722,7 @@ body {
   
     .hero-text {
       font-size: var(--fs-7);
-      max-width: 40ch;
+      max-width: 70ch;
       margin-block-end: 40px;
     }
   
