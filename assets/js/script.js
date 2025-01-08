@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function () {
       slides[currentSlide].classList.remove('active'); // Hide current slide
       currentSlide = (currentSlide + 1) % slides.length; // Move to the next slide
       slides[currentSlide].classList.add('active'); // Show next slide
-    }, 3000); // Change slide every 3 seconds
+    }, 3000); // Change slide every 3 seconds after the video gets ends
   }
 });
 
