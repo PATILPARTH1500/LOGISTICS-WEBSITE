@@ -1,0 +1,67 @@
+# Website Documentation
+
+## Introduction
+This document, written by Parth Patil, provides an understanding of the code structure and functionality of the logistics and shipping company website. The website is designed to showcase the company profile with a modern and engaging interface, including animations, transitions, and multimedia elements.
+
+## Website Theme
+1. This website is used for showcasing the logistics and shipping company profile.
+2. The homepage features a sleek, modern design with an image slider and a video player, making it visually unique.
+3. Animations and transitions are fully integrated to enhance user experience.
+4. The website includes login and sign-up pages, although the backend functionality is yet to be completed.
+5. Several pages represent the services provided by the company.
+6. A unique page is dedicated to the Managing Director's (MD) speech, enhancing credibility and personalization.
+
+## Code Structure
+### Folder Organization
+```
+ |---assets
+ |   |---css 
+ |      |--style.css        # Connected to index.html (home page)
+ |      |--style2.css       # Connected to all service pages
+ |      |--style3.css       # Connected to login.html and forget.html
+ |      |--style5.css       # Connected to contact.html
+ |      |--speechstyle.css  # Connected to speech.html
+ |
+ |   |---js
+ |      |--script.js        # Connected to index page
+ |      |--script3.js       # Connected to login page
+ |      |--script4.js       # Connected to forget page
+ |
+ |   |---image              # Contains all images used in the website
+ |
+ |---airfreight.html        # Service page
+ |---allieds.html           # Service page
+ |---contact.html           # Service page
+ |---customclearance.html   # Service page
+ |---dtd.html               # Service page
+ |---roadtransport.html     # Service page
+ |---seafreight.html        # Service page
+ |---specialequipments.html # Service page
+ |---syseyewatch.html       # Service page
+ |---ware.html              # Service page
+ |
+ |---index.html             # Main homepage
+ |
+ |---login.html             # Credential page
+ |---forgot.html            # Credential page
+ |
+ |---favicon.ico            # Website favicon
+ |---README.md              # Documentation for the Git repository
+ |---LICENSE                # MIT License for the project
+```
+
+## Features and Functionality
+- **Responsive Design**: Ensures compatibility across desktops, tablets, and mobile devices.
+- **Image Slider & Video Player**: Enhances the homepage's visual appeal.
+- **Animation & Transitions**: Provide a modern, interactive experience.
+- **Service Pages**: Clearly outline the logistics and shipping solutions provided by the company.
+- **MD's Speech Page**: A unique addition that personalizes the company’s message.
+- **Login & Sign-up Pages**: Frontend implemented, backend yet to be completed.
+
+## Future Enhancements
+- **Backend Development**: Implementing user authentication and data management.
+- **Database Integration**: Storing user data, service inquiries, and contact requests.
+- **Enhanced User Interaction**: Adding more interactive elements for better engagement.
+
+This structured approach ensures maintainability and ease of navigation for developers working on the project.
+
