@@ -389,15 +389,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 7px;
   transition: var(--transition);
-  font-size:20px;
+  font-size:15px;
 }
 
 .navbar-link:is(:hover, :focus) {
   background-color: var(--cultured-1);
   color: var(--dark-orange);
-  font-size:17.8px;
+  font-size:16.5px;
 }
 
 .overlay {
