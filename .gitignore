@@ -1,5 +1,5 @@
+# Ignore all desktop.ini files in all directories
+**/desktop.ini
+
 # Ignore VSCode settings folder
 .vscode/
-
-# Ignore Windows system file
-desktop.ini
