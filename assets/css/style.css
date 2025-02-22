@@ -321,7 +321,7 @@ body {
 
 .logo {
   color: var(--black);
-  font-size: 2rem;
+  font-size: 3rem;
   display: inline; /* Ensures the whole link behaves as inline text */
 }
 
@@ -369,7 +369,7 @@ body {
 
 .navbar-top .logo {
   color: var(--onyx);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .nav-close-btn {
@@ -1097,7 +1097,7 @@ body {
 
   .header .container { max-width: unset; }
 
-  .header .logo { font-size: 2.1rem; }
+  .header .logo { font-size: 3.5rem; }
 
 
 
