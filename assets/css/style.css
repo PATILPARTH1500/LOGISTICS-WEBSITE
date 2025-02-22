@@ -369,7 +369,7 @@ body {
 
 .navbar-top .logo {
   color: var(--onyx);
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .nav-close-btn {
@@ -1097,7 +1097,7 @@ body {
 
   .header .container { max-width: unset; }
 
-  .header .logo { font-size: 3.5rem; }
+  .header .logo { font-size: 2.1rem; }
 
 
 
@@ -1189,7 +1189,7 @@ body {
 
   .navbar-item:not(:last-child) { border-block-end: none; }
 
-  .navbar-link { color: var(--white); }
+  .navbar-link { color: var(--white);font-size:18px; }
 
   .navbar-link:is(:hover, :focus) { background-color: transparent; }
 
